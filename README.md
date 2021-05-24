@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=optimbase
 
 Package license: CeCILL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-optimbase-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides a set of commands to manage an abstract optimization method. The goal is to provide a building block for a large class of specialized optimization methods. This package manages: the number of variables, the minimum and maximum bounds, the number of non linear inequality constraints, the cost function, the logging system, various termination criteria, etc...
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-optimbase` from the `conda-forge` channel can be achieved by addin
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-optimbase` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
