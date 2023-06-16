@@ -1,11 +1,11 @@
-About r-optimbase
-=================
+About r-optimbase-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-optimbase-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=optimbase
 
 Package license: CeCILL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-optimbase-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a set of commands to manage an abstract optimization method. The goal is to provide a building block for a large class of specialized optimization methods. This package manages: the number of variables, the minimum and maximum bounds, the number of non linear inequality constraints, the cost function, the logging system, various termination criteria, etc...
 
