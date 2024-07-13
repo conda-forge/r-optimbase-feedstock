@@ -1,6 +1,5 @@
 {% set version = "1.0-10" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-optimbase
@@ -13,8 +12,7 @@ source:
   sha256: 2254975f0e927ddde5d07030527778e99618f7043c263cfe0e9ecb01325ebf41
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
